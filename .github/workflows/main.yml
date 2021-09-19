@@ -34,7 +34,9 @@ jobs:
          run: |
            cd encoder
            pip3 install --no-warn-script-location -r requirements.txt
-          bash install.sh --no-web
+           bash install.sh --no-web
+           
+# 🙄          
        - name: Loop workflow
          continue-on-error: true
          run: |
